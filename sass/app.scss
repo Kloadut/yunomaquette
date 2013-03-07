@@ -35,8 +35,10 @@ body {
     background: $whaite;
 }
 
-html {
-    border: 3px solid black;
+@media screen and (min-width: 1024px) {
+    html {
+        border: 3px solid black;
+    }
 }
 
 .button {
@@ -80,6 +82,12 @@ h4 {
 div.fixed {
     border: 3px solid $black;
     border-width: 3px 3px 0 3px;
+}
+
+@media screen and (max-width: 1024px) {
+    div.fixed {
+        border-width: 3px;
+    }
 }
 
 nav.top-bar {
@@ -155,6 +163,16 @@ div#container {
             margin-top: 20px;
         }
     }
+    @media screen and (min-width: 790px) {
+        div.triplette {
+            div.large-4:first-child {
+                padding-left: 0;
+            }
+            div.large-4:last-child {
+                padding-right: 0;
+            }
+        }
+    }
 }
 
 .white {
@@ -193,4 +211,14 @@ span.bold {
 
 div {
     line-height: 23px;
+}
+
+@media screen and (max-width: 790px) {
+    .white {
+        box-shadow: none;
+    }
+
+    .margin-kill {
+        margin-left: 0;
+    }
 }

@@ -5159,30 +5159,31 @@ body {
   background: #f2f2f2;
 }
 
-/* line 38, ../sass/app.scss */
-html {
-  border: 3px solid black;
+@media screen and (min-width: 1024px) {
+  /* line 39, ../sass/app.scss */
+  html {
+    border: 3px solid black;
+  }
 }
-
-/* line 42, ../sass/app.scss */
+/* line 44, ../sass/app.scss */
 .button {
   box-shadow: 2px 3px 0px #777777;
   border: none;
 }
 
-/* line 53, ../sass/app.scss */
+/* line 55, ../sass/app.scss */
 .button:active {
   box-shadow: -1px -1px 0px #777777;
   margin-top: 2px;
   margin-left: 2px;
 }
 
-/* line 59, ../sass/app.scss */
+/* line 61, ../sass/app.scss */
 .panel {
   border: none;
 }
 
-/* line 63, ../sass/app.scss */
+/* line 65, ../sass/app.scss */
 h3 {
   letter-spacing: -1px;
   text-transform: uppercase;
@@ -5192,7 +5193,7 @@ h3 {
   margin: 18px 10px;
 }
 
-/* line 72, ../sass/app.scss */
+/* line 74, ../sass/app.scss */
 h4 {
   letter-spacing: -1px;
   text-transform: uppercase;
@@ -5201,44 +5202,50 @@ h4 {
   font-weight: 700;
 }
 
-/* line 80, ../sass/app.scss */
+/* line 82, ../sass/app.scss */
 div.fixed {
   border: 3px solid #222222;
   border-width: 3px 3px 0 3px;
 }
 
-/* line 85, ../sass/app.scss */
+@media screen and (max-width: 1024px) {
+  /* line 88, ../sass/app.scss */
+  div.fixed {
+    border-width: 3px;
+  }
+}
+/* line 93, ../sass/app.scss */
 nav.top-bar {
   font-family: 'Source Sans Pro';
   text-transform: uppercase;
 }
-/* line 93, ../sass/app.scss */
+/* line 101, ../sass/app.scss */
 nav.top-bar ul.title-area li.name h1 a {
   font-weight: 800;
   letter-spacing: -1px;
   color: #222222;
   text-shadow: 3px -3px 0px white, -3px 3px 0 white;
 }
-/* line 100, ../sass/app.scss */
+/* line 108, ../sass/app.scss */
 nav.top-bar ul.title-area li.menu-icon a {
   font-weight: 300;
   color: #222222;
 }
-/* line 107, ../sass/app.scss */
+/* line 115, ../sass/app.scss */
 nav.top-bar section.top-bar-section ul.right li {
   background: #f2f2f2;
 }
-/* line 110, ../sass/app.scss */
+/* line 118, ../sass/app.scss */
 nav.top-bar section.top-bar-section ul.right li a:not(.button) {
   font-weight: 700;
   background: #f2f2f2;
 }
-/* line 115, ../sass/app.scss */
+/* line 123, ../sass/app.scss */
 nav.top-bar section.top-bar-section ul.right li.active a:not(.button) {
   text-shadow: 1px -2px 0 #2ba6cb;
   background: #f2f2f2;
 }
-/* line 120, ../sass/app.scss */
+/* line 128, ../sass/app.scss */
 nav.top-bar section.top-bar-section ul.right li > a.button {
   font-weight: 700;
   font-size: 16px;
@@ -5250,75 +5257,97 @@ nav.top-bar section.top-bar-section ul.right li > a.button {
   margin-top: 19px;
   margin-right: 10px;
 }
-/* line 134, ../sass/app.scss */
+/* line 142, ../sass/app.scss */
 nav.top-bar section.top-bar-section ul.right li > a.button:active {
   box-shadow: none;
   margin-top: 17px;
   margin-right: 10px;
   margin-left: 0;
 }
-/* line 140, ../sass/app.scss */
+/* line 148, ../sass/app.scss */
 nav.top-bar section.top-bar-section ul.right li a:hover:not(.button) {
   background: #f2f2f2;
   text-shadow: 1px -2px 0 #2ba6cb;
 }
 
-/* line 149, ../sass/app.scss */
+/* line 157, ../sass/app.scss */
 div#container {
   background: #f2f2f2;
 }
-/* line 152, ../sass/app.scss */
+/* line 160, ../sass/app.scss */
 div#container div.white.stroked {
   margin-top: 20px;
 }
-/* line 154, ../sass/app.scss */
+/* line 162, ../sass/app.scss */
 div#container div.white.stroked p {
   margin-top: 20px;
 }
+@media screen and (min-width: 790px) {
+  /* line 168, ../sass/app.scss */
+  div#container div.triplette div.large-4:first-child {
+    padding-left: 0;
+  }
+  /* line 171, ../sass/app.scss */
+  div#container div.triplette div.large-4:last-child {
+    padding-right: 0;
+  }
+}
 
-/* line 160, ../sass/app.scss */
+/* line 178, ../sass/app.scss */
 .white {
   background: #fff;
   box-shadow: 4px -5px white;
   padding: 15px 30px;
 }
 
-/* line 166, ../sass/app.scss */
+/* line 184, ../sass/app.scss */
 span.big {
   font-size: 28px;
 }
 
-/* line 170, ../sass/app.scss */
+/* line 188, ../sass/app.scss */
 span.bold {
   font-weight: 700;
 }
 
-/* line 174, ../sass/app.scss */
+/* line 192, ../sass/app.scss */
 .stroked {
   border: 3px solid #222222;
 }
 
-/* line 178, ../sass/app.scss */
+/* line 196, ../sass/app.scss */
 .clear {
   clear: both;
 }
 
-/* line 182, ../sass/app.scss */
+/* line 200, ../sass/app.scss */
 .margin-kill {
   margin-left: 30px;
 }
 
-/* line 186, ../sass/app.scss */
+/* line 204, ../sass/app.scss */
 .padding-kill {
   padding: 0;
 }
 
-/* line 190, ../sass/app.scss */
+/* line 208, ../sass/app.scss */
 .center {
   text-align: center;
 }
 
-/* line 194, ../sass/app.scss */
+/* line 212, ../sass/app.scss */
 div {
   line-height: 23px;
+}
+
+@media screen and (max-width: 790px) {
+  /* line 217, ../sass/app.scss */
+  .white {
+    box-shadow: none;
+  }
+
+  /* line 221, ../sass/app.scss */
+  .margin-kill {
+    margin-left: 0;
+  }
 }
