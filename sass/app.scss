@@ -23,6 +23,7 @@ $topbar-title-font-size: 2em;
 $topbar-link-color: $black;
 $topbar-link-weight: normal;
 $topbar-link-font-size: 18px;
+$topbar-breakpoint: 1024px;
 
 // Global Foundation Settings
 @import "settings";
@@ -102,11 +103,15 @@ nav.top-bar {
                 font-weight: 800;
                 letter-spacing: -1px;
                 color: $black;
-                text-shadow: 3px -3px 0px #fff, -3px 3px 0 #fff;
+                text-shadow: 3px -3px 0px #fff;
             }
         }
         li.menu-icon a {
-            font-weight: 300;
+            font-family: 'Source Code Pro';
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 31px;
+            text-indent: -70px;
             color: $black;
         }
     }
