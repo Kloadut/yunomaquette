@@ -5332,15 +5332,16 @@ input.button.big,
 nav.top-bar section.top-bar-section ul.right li a.button.big {
   font-size: 26px;
   padding: 5px 15px;
+  letter-spacing: -1px;
 }
-/* line 66, ../sass/_yunohost.scss */
+/* line 67, ../sass/_yunohost.scss */
 .button.red,
 input.button.red,
 nav.top-bar section.top-bar-section ul.right li a.button.red {
   box-shadow: 2px -3px #fb2f3e;
   background-color: #fb2f3e;
 }
-/* line 68, ../sass/_yunohost.scss */
+/* line 69, ../sass/_yunohost.scss */
 .button.red:hover, .button.red:active,
 input.button.red:hover,
 input.button.red:active,
@@ -5348,14 +5349,14 @@ nav.top-bar section.top-bar-section ul.right li a.button.red:hover,
 nav.top-bar section.top-bar-section ul.right li a.button.red:active {
   background-color: #fd939b;
 }
-/* line 72, ../sass/_yunohost.scss */
+/* line 73, ../sass/_yunohost.scss */
 .button.blue,
 input.button.blue,
 nav.top-bar section.top-bar-section ul.right li a.button.blue {
   box-shadow: 2px -3px #2ba6cb;
   background-color: #2ba6cb;
 }
-/* line 74, ../sass/_yunohost.scss */
+/* line 75, ../sass/_yunohost.scss */
 .button.blue:hover, .button.blue:active,
 input.button.blue:hover,
 input.button.blue:active,
@@ -5363,14 +5364,14 @@ nav.top-bar section.top-bar-section ul.right li a.button.blue:hover,
 nav.top-bar section.top-bar-section ul.right li a.button.blue:active {
   background-color: #79cae3;
 }
-/* line 78, ../sass/_yunohost.scss */
+/* line 79, ../sass/_yunohost.scss */
 .button.yellow,
 input.button.yellow,
 nav.top-bar section.top-bar-section ul.right li a.button.yellow {
   box-shadow: 2px -3px #ffff66;
   background-color: #ffff66;
 }
-/* line 80, ../sass/_yunohost.scss */
+/* line 81, ../sass/_yunohost.scss */
 .button.yellow:hover, .button.yellow:active,
 input.button.yellow:hover,
 input.button.yellow:active,
@@ -5378,14 +5379,14 @@ nav.top-bar section.top-bar-section ul.right li a.button.yellow:hover,
 nav.top-bar section.top-bar-section ul.right li a.button.yellow:active {
   background-color: #79cae3;
 }
-/* line 84, ../sass/_yunohost.scss */
+/* line 85, ../sass/_yunohost.scss */
 .button.green,
 input.button.green,
 nav.top-bar section.top-bar-section ul.right li a.button.green {
   box-shadow: 2px -3px #66ff00;
   background-color: #66ff00;
 }
-/* line 86, ../sass/_yunohost.scss */
+/* line 87, ../sass/_yunohost.scss */
 .button.green:hover, .button.green:active,
 input.button.green:hover,
 input.button.green:active,
@@ -5393,14 +5394,14 @@ nav.top-bar section.top-bar-section ul.right li a.button.green:hover,
 nav.top-bar section.top-bar-section ul.right li a.button.green:active {
   background-color: #a3ff66;
 }
-/* line 90, ../sass/_yunohost.scss */
+/* line 91, ../sass/_yunohost.scss */
 .button:focus,
 input.button:focus,
 nav.top-bar section.top-bar-section ul.right li a.button:focus {
   background-color: inherit;
   color: #222222;
 }
-/* line 94, ../sass/_yunohost.scss */
+/* line 95, ../sass/_yunohost.scss */
 .button:active,
 input.button:active,
 nav.top-bar section.top-bar-section ul.right li a.button:active {
@@ -5410,7 +5411,7 @@ nav.top-bar section.top-bar-section ul.right li a.button:active {
   margin-top: 2px;
   margin-left: 2px;
 }
-/* line 101, ../sass/_yunohost.scss */
+/* line 102, ../sass/_yunohost.scss */
 .button:hover,
 input.button:hover,
 nav.top-bar section.top-bar-section ul.right li a.button:hover {
@@ -5418,7 +5419,7 @@ nav.top-bar section.top-bar-section ul.right li a.button:hover {
   color: #222222;
 }
 
-/* line 109, ../sass/_yunohost.scss */
+/* line 110, ../sass/_yunohost.scss */
 textarea,
 input[type=text],
 input[type=reset] {
@@ -5430,7 +5431,7 @@ input[type=reset] {
   color: #222222;
   padding: 0 10px;
 }
-/* line 116, ../sass/_yunohost.scss */
+/* line 117, ../sass/_yunohost.scss */
 textarea:focus,
 input[type=text]:focus,
 input[type=reset]:focus {
@@ -5438,18 +5439,18 @@ input[type=reset]:focus {
   background-color: #fff;
 }
 
-/* line 123, ../sass/_yunohost.scss */
+/* line 124, ../sass/_yunohost.scss */
 textarea {
   padding: 10px;
   line-height: 20px;
 }
 
-/* line 129, ../sass/_yunohost.scss */
+/* line 130, ../sass/_yunohost.scss */
 .panel {
   border: none;
 }
 
-/* line 133, ../sass/_yunohost.scss */
+/* line 134, ../sass/_yunohost.scss */
 h3 {
   letter-spacing: -1px;
   text-transform: uppercase;
@@ -5459,7 +5460,7 @@ h3 {
   margin: 18px 10px;
 }
 
-/* line 142, ../sass/_yunohost.scss */
+/* line 143, ../sass/_yunohost.scss */
 h4 {
   letter-spacing: -1px;
   text-transform: uppercase;
@@ -5468,31 +5469,31 @@ h4 {
   font-weight: 700;
 }
 
-/* line 150, ../sass/_yunohost.scss */
+/* line 151, ../sass/_yunohost.scss */
 div.fixed {
   border: 3px solid #222222;
   border-width: 3px 3px 0 3px;
 }
 
 @media screen and (max-width: 1024px) {
-  /* line 156, ../sass/_yunohost.scss */
+  /* line 157, ../sass/_yunohost.scss */
   div.fixed {
     border-width: 3px;
   }
 }
-/* line 161, ../sass/_yunohost.scss */
+/* line 162, ../sass/_yunohost.scss */
 nav.top-bar {
   font-family: 'Source Code Pro';
   text-transform: uppercase;
   letter-spacing: -1px;
 }
-/* line 167, ../sass/_yunohost.scss */
+/* line 168, ../sass/_yunohost.scss */
 nav.top-bar ul.title-area li.name h1 a {
   font-weight: 800;
   letter-spacing: -1px;
   color: #222222;
 }
-/* line 174, ../sass/_yunohost.scss */
+/* line 175, ../sass/_yunohost.scss */
 nav.top-bar ul.title-area li.menu-icon a {
   font-family: 'Source Code Pro';
   font-weight: 700;
@@ -5501,139 +5502,139 @@ nav.top-bar ul.title-area li.menu-icon a {
   text-indent: -70px;
   color: #222222;
 }
-/* line 185, ../sass/_yunohost.scss */
+/* line 186, ../sass/_yunohost.scss */
 nav.top-bar section.top-bar-section ul.right li {
   background: #f2f2f2;
 }
-/* line 188, ../sass/_yunohost.scss */
+/* line 189, ../sass/_yunohost.scss */
 nav.top-bar section.top-bar-section ul.right li a:not(.button) {
   font-weight: 700;
   background: #f2f2f2;
 }
-/* line 192, ../sass/_yunohost.scss */
+/* line 193, ../sass/_yunohost.scss */
 nav.top-bar section.top-bar-section ul.right li.active a:not(.button) {
   text-shadow: 1px -2px 0 #66ff00;
   background: #f2f2f2;
 }
-/* line 196, ../sass/_yunohost.scss */
+/* line 197, ../sass/_yunohost.scss */
 nav.top-bar section.top-bar-section ul.right li a.button {
   margin-top: 19px;
   margin-right: 10px;
 }
-/* line 200, ../sass/_yunohost.scss */
+/* line 201, ../sass/_yunohost.scss */
 nav.top-bar section.top-bar-section ul.right li a.button:active {
   box-shadow: none;
   margin-top: 17px;
   margin-right: 10px;
   margin-left: 0;
 }
-/* line 206, ../sass/_yunohost.scss */
+/* line 207, ../sass/_yunohost.scss */
 nav.top-bar section.top-bar-section ul.right li a:hover:not(.button) {
   background: #f2f2f2;
   text-shadow: 1px -2px 0 #ffff66;
 }
 
-/* line 214, ../sass/_yunohost.scss */
+/* line 215, ../sass/_yunohost.scss */
 .whitebox {
   background: #fff;
   box-shadow: 4px -5px white;
 }
 
-/* line 219, ../sass/_yunohost.scss */
+/* line 220, ../sass/_yunohost.scss */
 .blackbox {
   background: #555;
   box-shadow: 4px -5px #555555;
   color: #fff;
 }
 
-/* line 225, ../sass/_yunohost.scss */
+/* line 226, ../sass/_yunohost.scss */
 .padded {
   padding: 15px 30px;
 }
 
-/* line 229, ../sass/_yunohost.scss */
+/* line 230, ../sass/_yunohost.scss */
 span.big {
   font-size: 28px;
 }
 
-/* line 233, ../sass/_yunohost.scss */
+/* line 234, ../sass/_yunohost.scss */
 span.bold {
   font-weight: 700;
 }
 
-/* line 237, ../sass/_yunohost.scss */
+/* line 238, ../sass/_yunohost.scss */
 span.uppercase {
   font-weight: 700;
   font-family: "Source Code Pro";
   letter-spacing: -1.5px;
 }
 
-/* line 244, ../sass/_yunohost.scss */
+/* line 245, ../sass/_yunohost.scss */
 .justify {
   text-align: justify;
 }
 
-/* line 248, ../sass/_yunohost.scss */
+/* line 249, ../sass/_yunohost.scss */
 pre {
   font-family: "Source Code Pro";
   font-size: 14px;
 }
 
-/* line 253, ../sass/_yunohost.scss */
+/* line 254, ../sass/_yunohost.scss */
 .stroked {
   border: 3px solid #222222;
 }
 
-/* line 257, ../sass/_yunohost.scss */
+/* line 258, ../sass/_yunohost.scss */
 .clear {
   clear: both;
 }
 
-/* line 261, ../sass/_yunohost.scss */
+/* line 262, ../sass/_yunohost.scss */
 .margin-kill {
   margin-left: 30px;
 }
 
-/* line 266, ../sass/_yunohost.scss */
+/* line 267, ../sass/_yunohost.scss */
 .padding-kill,
 .row .columns.padding-kill {
   padding: 0;
 }
 
-/* line 270, ../sass/_yunohost.scss */
+/* line 271, ../sass/_yunohost.scss */
 .top-spaced {
   margin-top: 20px;
 }
 
-/* line 274, ../sass/_yunohost.scss */
+/* line 275, ../sass/_yunohost.scss */
 div.spacer {
   height: 40px;
 }
 
-/* line 278, ../sass/_yunohost.scss */
+/* line 279, ../sass/_yunohost.scss */
 .center {
   text-align: center;
   margin: 0 auto;
 }
 
-/* line 283, ../sass/_yunohost.scss */
+/* line 284, ../sass/_yunohost.scss */
 div {
   line-height: 23px;
 }
 
 /* Responsive stuffs */
 @media screen and (max-width: 790px) {
-  /* line 290, ../sass/_yunohost.scss */
+  /* line 291, ../sass/_yunohost.scss */
   .whitebox {
     box-shadow: none;
   }
 
-  /* line 294, ../sass/_yunohost.scss */
+  /* line 295, ../sass/_yunohost.scss */
   .margin-kill {
     margin-left: 0;
   }
 
-  /* line 299, ../sass/_yunohost.scss */
+  /* line 300, ../sass/_yunohost.scss */
   .row.stroked,
   .row.small-fix {
     margin-left: 0px;
