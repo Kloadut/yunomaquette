@@ -65,15 +65,27 @@ nav.top-bar section.top-bar-section ul.right li a.button {
     }
     &.red {
         @include colorbox($red);
+        &:hover, &:active {
+            background-color: lighten($red, 20%);
+        }
     }
     &.blue {
         @include colorbox($blue);
+        &:hover, &:active {
+            background-color: lighten($blue, 20%);
+        }
     }
     &.yellow {
         @include colorbox($yellow);
+        &:hover, &:active {
+            background-color: lighten($blue, 20%);
+        }
     }
     &.green {
         @include colorbox($green);
+        &:hover, &:active {
+            background-color: lighten($green, 20%);
+        }
     }
     &:focus {
         background-color: inherit;
