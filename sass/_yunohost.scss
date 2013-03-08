@@ -239,7 +239,8 @@ pre {
     margin-left: 30px;
 }
 
-.padding-kill {
+.padding-kill,
+.row .columns.padding-kill {
     padding: 0;
 }
 
@@ -268,5 +269,11 @@ div {
 
     .margin-kill {
         margin-left: 0;
+    }
+
+    .row.stroked,
+    .row.small-fix {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }

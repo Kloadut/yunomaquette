@@ -5549,41 +5549,49 @@ pre {
   margin-left: 30px;
 }
 
-/* line 242, ../sass/_yunohost.scss */
-.padding-kill {
+/* line 243, ../sass/_yunohost.scss */
+.padding-kill,
+.row .columns.padding-kill {
   padding: 0;
 }
 
-/* line 246, ../sass/_yunohost.scss */
+/* line 247, ../sass/_yunohost.scss */
 .top-spaced {
   margin-top: 20px;
 }
 
-/* line 250, ../sass/_yunohost.scss */
+/* line 251, ../sass/_yunohost.scss */
 div.spacer {
   height: 40px;
 }
 
-/* line 254, ../sass/_yunohost.scss */
+/* line 255, ../sass/_yunohost.scss */
 .center {
   text-align: center;
 }
 
-/* line 258, ../sass/_yunohost.scss */
+/* line 259, ../sass/_yunohost.scss */
 div {
   line-height: 23px;
 }
 
 /* Responsive stuffs */
 @media screen and (max-width: 790px) {
-  /* line 265, ../sass/_yunohost.scss */
+  /* line 266, ../sass/_yunohost.scss */
   .whitebox {
     box-shadow: none;
   }
 
-  /* line 269, ../sass/_yunohost.scss */
+  /* line 270, ../sass/_yunohost.scss */
   .margin-kill {
     margin-left: 0;
+  }
+
+  /* line 275, ../sass/_yunohost.scss */
+  .row.stroked,
+  .row.small-fix {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 /* YunoSite specific */
