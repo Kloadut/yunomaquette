@@ -59,6 +59,10 @@ nav.top-bar section.top-bar-section ul.right li a.button {
     border: 3px solid $black;
     color: $black;
     padding: 0 10px;
+    &.big {
+        font-size: 26px;
+        padding: 5px 15px;
+    }
     &.red {
         @include colorbox($red);
     }
@@ -152,7 +156,7 @@ nav.top-bar {
                 font-weight: 800;
                 letter-spacing: -1px;
                 color: $black;
-                text-shadow: 3px -3px 0px #fff;
+                //text-shadow: 3px -3px 0px #fff;
             }
         }
         li.menu-icon a {
@@ -174,7 +178,7 @@ nav.top-bar {
                 background: $whaite;
             }
             li.active a:not(.button) {
-                text-shadow: 1px -2px 0 $blue;
+                text-shadow: 1px -2px 0 $green;
                 background: $whaite;
             }
             li a.button {
@@ -189,7 +193,7 @@ nav.top-bar {
             }
             li a:hover:not(.button) {
                 background: $whaite;
-                text-shadow: 1px -2px 0 $blue;
+                text-shadow: 1px -2px 0 $yellow;
             }
         }
     }
@@ -217,6 +221,13 @@ span.big {
 span.bold {
     font-weight: 700;
 }
+
+span.uppercase {
+    font-weight: 700;
+    font-family: "Source Code Pro";
+    letter-spacing: -1.5px;
+}
+
 
 .justify {
     text-align: justify;
@@ -254,6 +265,7 @@ div.spacer {
 
 .center {
     text-align: center;
+    margin: 0 auto;
 }
 
 div {
